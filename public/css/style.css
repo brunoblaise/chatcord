@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
+	--dark-color-a: #d9534f;
+	--dark-color-b: rgb(255,108,55);
+	--light-color: #1c272b;
 	--success-color: #5cb85c;
-	--error-color: #d9534f;
+	--error-color: #d42d28;
 }
 
 * {
@@ -125,6 +125,7 @@ a {
 	padding: 5px;
 	height: 40px;
 	flex: 1;
+
 }
 
 /* Join Page */
@@ -135,6 +136,7 @@ a {
 }
 
 .join-header {
+
 	text-align: center;
 	padding: 20px;
 	background: var(--dark-color-a);
@@ -165,8 +167,11 @@ a {
 	padding: 5px;
 	height: 40px;
 	width: 100%;
-}
 
+}
+.text{
+	color:white;
+}
 .join-main select {
 	font-size: 16px;
 	padding: 5px;
